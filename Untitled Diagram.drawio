@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-01-29T14:22:58.952Z" agent="5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="VDU0EZ2MZPD2mEA8g-X-" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-29T14:28:59.812Z" agent="5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="qJP_rupoXlr6I3Lt-XfB" version="14.2.7" type="github">
   <diagram id="S2_BKPCjc5cobRRPOWBh" name="Page-1">
-    <mxGraphModel dx="2380" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3027" dy="2046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-796ArXZzWcTJL-aqqKS-4" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Interface" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="-453" y="-179" width="535" height="69" as="geometry" />
+        <mxCell id="-796ArXZzWcTJL-aqqKS-4" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Interface&lt;br&gt;&lt;br&gt;Implemented by AALB, PALB or embedded CAN driver&lt;br&gt;Called by BCL" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="-380" y="-180" width="535" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="-796ArXZzWcTJL-aqqKS-5" value="Callback&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="-796ArXZzWcTJL-aqqKS-5" value="Callback&lt;br&gt;&lt;br&gt;Implemented by BPL&lt;br&gt;Called by BCL&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="630" y="-1130" width="480" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-796ArXZzWcTJL-aqqKS-1" value="Interface&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="-796ArXZzWcTJL-aqqKS-1" value="Interface&lt;br&gt;&lt;br&gt;Implemented in BCL&lt;br&gt;Called by BPL&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="-380" y="-1030" width="750" height="180" as="geometry" />
         </mxCell>
         <mxCell id="AYVGHtx3T9fhsccPF0tF-28" style="edgeStyle=orthogonalEdgeStyle;jumpStyle=none;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-796ArXZzWcTJL-aqqKS-3" target="-796ArXZzWcTJL-aqqKS-40">
@@ -389,13 +389,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-796ArXZzWcTJL-aqqKS-33" value="BAP_BCL_ErrorIndication" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="-796ArXZzWcTJL-aqqKS-33" value="BAP_BCL_ErrorIndication" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="860" y="-1070" width="145" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-796ArXZzWcTJL-aqqKS-34" value="BAP_BCL_DataReceived" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="-796ArXZzWcTJL-aqqKS-34" value="BAP_BCL_DataReceived" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="910" y="-1090" width="145" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-796ArXZzWcTJL-aqqKS-35" value="BAP_BCL_Acknowledge" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="-796ArXZzWcTJL-aqqKS-35" value="BAP_BCL_Acknowledge" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="965" y="-1110" width="145" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-796ArXZzWcTJL-aqqKS-51" value="BAP_BCL_CanSendSequenceMsg" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -489,28 +489,28 @@
           <mxGeometry x="375" y="-840" as="geometry" />
         </mxCell>
         <mxCell id="-796ArXZzWcTJL-aqqKS-37" value="BAP_CANUBS_TxData" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-165.75" y="-179" width="145" height="20" as="geometry" />
+          <mxGeometry x="-163.76" y="-180" width="145" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-796ArXZzWcTJL-aqqKS-38" value="BAP_CANUBS_IsReadyForTx" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-337.5" y="-179" width="167.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-796ArXZzWcTJL-aqqKS-39" value="BAP_CANUBS_InitReadyForTx" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-440" y="-159" width="167.5" height="20" as="geometry" />
+          <mxGeometry x="-380" y="-160" width="167.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cqRTCMUEP6kAne7-0nRB-66" value="BAP_BCL_InhibitTimerTask" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-337.5" y="-800" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-796ArXZzWcTJL-aqqKS-6" value="Callback&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="490" y="-260" width="310" height="80" as="geometry" />
+        <mxCell id="-796ArXZzWcTJL-aqqKS-6" value="Callback&lt;br&gt;&lt;br&gt;Implemented by BCL&lt;br&gt;Called by AALB. PALB, or CAN embedded driver" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="630" y="-260" width="480" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-796ArXZzWcTJL-aqqKS-36" value="BAP_CANUBS_RxData" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="560" y="-220" width="145" height="20" as="geometry" />
+          <mxGeometry x="902.5" y="-260" width="145" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-796ArXZzWcTJL-aqqKS-109" value="BAP_BCL_CanCheckRxData" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="547.5" y="-300" width="170" height="20" as="geometry" />
+          <mxGeometry x="890" y="-300" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-796ArXZzWcTJL-aqqKS-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-796ArXZzWcTJL-aqqKS-36" target="-796ArXZzWcTJL-aqqKS-109" edge="1">
-          <mxGeometry x="490" y="-300" as="geometry" />
+          <mxGeometry x="832.5" y="-290" as="geometry" />
         </mxCell>
         <mxCell id="AYVGHtx3T9fhsccPF0tF-1" value="BAP_BCL_InitTxRamValues" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="170" y="-800" width="160" height="20" as="geometry" />
