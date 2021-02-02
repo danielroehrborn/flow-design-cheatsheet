@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T12:52:27.407Z" agent="5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="Pv4zb6MKVVjBurVOMsIG" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-02T13:00:42.763Z" agent="5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="6SPGUnOy1TSmBjJD27jK" version="14.2.9" type="github">
   <diagram id="Hy7PKsm2QMiDT585HR8n" name="Page-1">
-    <mxGraphModel dx="2408" dy="1470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2974" dy="1695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -218,14 +218,35 @@
         <mxCell id="GXOvaEmio5X8i0qMrwFc-55" value="BAP_BAL_CheckFunctionListAsg" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="250" y="500" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GXOvaEmio5X8i0qMrwFc-56" value="BAP_BAL_CheckRequest" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="250" y="520" width="150" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="GXOvaEmio5X8i0qMrwFc-57" value="BAP_BAL_DataStreamToInt16" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="250" y="540" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GXOvaEmio5X8i0qMrwFc-58" value="BAP_BAL_DataStreamToInt32" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="250" y="560" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GXOvaEmio5X8i0qMrwFc-59" value="BAP_BAL_CheckBapConfig" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="580" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GXOvaEmio5X8i0qMrwFc-60" value="BAP_BAL_CompareBapConfig" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="600" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GXOvaEmio5X8i0qMrwFc-61" value="BAP_BAL_CheckDataReceived" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="620" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GXOvaEmio5X8i0qMrwFc-62" value="BAP_BAL_CheckASGDataReceived" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="640" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GXOvaEmio5X8i0qMrwFc-63" value="BAP_BAL_CheckFSGDataReceived" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="660" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GXOvaEmio5X8i0qMrwFc-64" value="BAP_BAL_CheckIfFunctionIsValid" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="680" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GXOvaEmio5X8i0qMrwFc-65" value="BAP_BAL_GetLsgCacheStatus" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="700" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GXOvaEmio5X8i0qMrwFc-66" value="BAP_BAL_GetAcknowledge" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="720" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
