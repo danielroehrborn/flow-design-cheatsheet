@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T12:39:27.566Z" agent="5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="Q1SXPNFlR3ukS9To7T9K" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-02T13:54:54.806Z" agent="5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="b-gOUhxhZp_Gi5W1jC-F" version="14.2.9" type="github">
   <diagram id="C8eQM4Q8xSWbrrNx_noB" name="Page-1">
-    <mxGraphModel dx="1935" dy="1661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2762" dy="1661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,7 +21,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KxRZoxr4f5PsrrBPdVEK-1" value="Interface&lt;br&gt;&lt;br&gt;Implemented by BPL&lt;br&gt;Called by BAL&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-770" y="-60" width="1370" height="130" as="geometry" />
+          <mxGeometry x="-900" y="-60" width="1500" height="130" as="geometry" />
         </mxCell>
         <mxCell id="gFphMr8mhAraAqMbnXNa-40" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KxRZoxr4f5PsrrBPdVEK-11" target="gFphMr8mhAraAqMbnXNa-39" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -40,7 +40,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KxRZoxr4f5PsrrBPdVEK-2" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Interface&lt;br&gt;&lt;br&gt;Implemented by BCL&lt;br&gt;Called by BPL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-770" y="602" width="1370" height="120" as="geometry" />
+          <mxGeometry x="-900" y="602" width="1500" height="120" as="geometry" />
         </mxCell>
         <mxCell id="KxRZoxr4f5PsrrBPdVEK-3" value="Callback&lt;br&gt;&lt;br&gt;Implemented by BAL&lt;br&gt;Called by BPL&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;" parent="1" vertex="1">
           <mxGeometry x="599" y="-150" width="661" height="90" as="geometry" />
@@ -139,7 +139,7 @@
           <mxGeometry x="-770" y="602" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KxRZoxr4f5PsrrBPdVEK-20" value="BAP_BCL_BufferSet" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-85" y="684" width="120" height="20" as="geometry" />
+          <mxGeometry x="-900" y="602" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KxRZoxr4f5PsrrBPdVEK-21" value="BAP_BCL_Send" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="165" y="602" width="90" height="20" as="geometry" />
@@ -169,7 +169,7 @@
           <mxGeometry x="-630" y="602" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KxRZoxr4f5PsrrBPdVEK-30" value="BAP_BCL_Shutdown" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-85" y="701" width="120" height="20" as="geometry" />
+          <mxGeometry x="-85" y="684" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gFphMr8mhAraAqMbnXNa-31" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KxRZoxr4f5PsrrBPdVEK-31" target="KxRZoxr4f5PsrrBPdVEK-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -380,8 +380,11 @@
         <mxCell id="Y_sCRXPe6GYrvj1Hvzya-28" value="unused" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-108" y="663" width="60" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="oj9-m4LuZBx6PkYckCj9-1" value="BAP_BPL_BufferSet = &lt;br&gt;BAP_BCL_BufferSet" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-600" y="-60" width="130" height="40" as="geometry" />
+        <mxCell id="f9wQm1tA5YrGQZsquhix-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oj9-m4LuZBx6PkYckCj9-1" target="KxRZoxr4f5PsrrBPdVEK-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oj9-m4LuZBx6PkYckCj9-1" value="BAP_BPL_BufferSet" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-900" y="50" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
